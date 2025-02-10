@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+    <style>
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            margin: 10px auto 0px auto;
+            gap: 10px;
+        }
+        .gallery img{
+            width: 100%;
+            border: 1px solid black;
+            border-radius: 4px;
+            min-width: 170px;
+            max-width: 370px;
+        }
+        </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="Car.jpg" alt="placeholder1">
+        <img src="Car.jpg" alt="placeholder2">
+        <img src="Car.jpg" alt="placeholder3">
+        <img src="Car.jpg" alt="placeholder4">
+        <img src="Car.jpg" alt="placeholder5">
+        <img src="Car.jpg" alt="placeholder6">
+        <img src="Car.jpg" alt="placeholder7">
+        <img src="Car.jpg" alt="placeholder8">
+    </div>   
+
+
+    </body>
+</html>

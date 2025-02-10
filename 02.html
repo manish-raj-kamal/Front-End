@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        #value1{
+            background-color: slategrey;
+        }
+        #value2{
+            background-color:rgb(124, 69, 91);
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+    </style>
+
+</head>
+<body>
+    <section id="value1">
+        <p>This is <b>Bold Text</b></p>
+        <p>This is <ins>Inserted Text</ins></p>
+        <p>This is <del>Deleted Text</del></p>
+        <p>This is <code>Computer code</code></p>
+        <p>This is <abbr title="World Wide Consortium">W3C</abbr></p>
+        <blockquote><p>This text is in Blockquote</p></blockquote>
+        <p>This is chemical formula of water H<sub>2</sub>O</p>
+        <p>This is <mark>highlighted</mark> text.</p>
+        <p>This is <sup>Superscript</sup> and <sub>Subscript</sub> text.</p>
+
+        <p>This paragraph has multiple&nbsp;&nbsp;&nbsp;spaces.</p>     <!-- Full form of nbsp is -->
+        <p>This paragraph has multiple<br><br>line<br><br><br>breaks.</p>
+        <br><br>
+    </section>
+    <hr>
+    <section id="value2">
+        <br><br>
+        <table border=1 width=50% cellspacing=10 cellpadding=10 align="center">
+            <tr>
+                <th>Column Section</th>
+                <th>Row Section</th>
+            </tr>
+
+            <tr>
+                <td>First Name</td>
+                <td><input name="firstname" type="text" placeholder="First Name"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input name="lastname" type="text" placeholder="Last Name"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" id="male">Male
+                    <input type="radio" name="gender" id="female">Female
+                </td>
+            </tr>
+
+        </table>
+    </section>
+
+    
+</body>
+</html>
